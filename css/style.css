@@ -1,0 +1,71 @@
+@font-face{
+    font-family: 'zagolovok';
+    src: url('./fonts/Blackcraft.ttf');
+}
+@font-face{
+    font-family: 'paragraph';
+    src: url('./fonts/PitagonSansMono-Bold.ttf');
+}
+.mainH {
+    font-size:300%;
+    font-family: 'zagolovok', sans-serif;
+}
+.mainH-red {
+    font-size:45px;
+    font-family: 'zagolovok', sans-serif;
+}
+html {
+    background: black;
+}
+.p-center {
+    text-align:center;
+    color:white;
+    font-family: 'paragraph', sans-serif;
+}
+#bck-video {
+filter: brightness(60%);
+position:fixed;
+top:0;
+left:0;
+width: 100vw;
+height:100vh;
+object-fit:cover;
+}
+video{
+position:fixed;
+top:0;
+left:0;
+width: 100%;
+height:100%;
+z-index:-1;
+}
+button {
+font-family: 'paragraph', sans-serif;
+background-color: transparent;
+color:red;
+border: none;
+text-shadow:
+      0 0 1px #de4b40,
+      0 0 2px #de4b40,
+      0 0 5px #de4b40,
+      0 0 11px #e37168,
+      0 0 20px #e37168,
+      0 0 30px #e37168,
+      0 0 55px #e37168,
+      0 0 80px #e37168;
+}
+.pOpis{
+    color:white;
+    font-family: 'paragraph', sans-serif;
+    background-color: transparent;
+    color:red;
+    border: none;
+    text-shadow:
+      0 0 1px #de4b40,
+      0 0 2px #de4b40,
+      0 0 5px #de4b40,
+      0 0 11px #e37168,
+      0 0 20px #e37168,
+      0 0 30px #e37168,
+      0 0 55px #e37168,
+      0 0 80px #e37168;}

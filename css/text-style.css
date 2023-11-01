@@ -1,0 +1,48 @@
+@keyframes flicker {
+    50%,55%,60%,65%,70%,75%,80%,85%,90%,95%,100% {
+    text-shadow:
+      0 0 1px #f5f5fa,
+      0 0 2px #f5f5fa,
+      0 0 5px #f5f5fa,
+      0 0 11px #e8e8e8,
+      0 0 20px #e8e8e8,
+      0 0 30px #e8e8e8,
+      0 0 55px #e8e8e8,
+      0 0 80px #e8e8e8;
+}
+  20%, 24%, 55% {
+    text-shadow:none;
+  }
+}
+.mainH{
+    text-align:center;
+    color: white;
+    text-shadow:
+      0 0 1px #f5f5fa,
+      0 0 2px #f5f5fa,
+      0 0 5px #f5f5fa,
+      0 0 11px #e8e8e8,
+      0 0 20px #e8e8e8,
+      0 0 30px #e8e8e8,
+      0 0 55px #e8e8e8,
+      0 0 80px #e8e8e8;
+}
+.mainH-red{
+    color:red;
+    text-shadow:
+      0 0 1px #de4b40,
+      0 0 2px #de4b40,
+      0 0 5px #de4b40,
+      0 0 11px #e37168,
+      0 0 20px #e37168,
+      0 0 30px #e37168,
+      0 0 55px #e37168,
+      0 0 80px #e37168;
+}
+.maiH {
+  animation: flicker 1.5s infinite alternate;
+}
+
+
+
+
